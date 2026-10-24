@@ -46,6 +46,9 @@ ENV/
 # VS Code / local editor settings
 .vscode/
 
-# Local cache and large GIS data (not stored in Git)
+# Local cache
 examples/cache/
-examples/data/astrakhan/
+
+# Files larger than GitHub's 100 MB limit (download from Google Drive)
+examples/data/astrakhan/south-fed-district-latest.osm.pbf
+examples/data/astrakhan/accessibility_matrix.csv

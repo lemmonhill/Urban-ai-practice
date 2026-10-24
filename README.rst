@@ -39,17 +39,21 @@ Data
 All the required data is stored in `examples
 data folder <./examples/data>`__.
 
-The Astrakhan dataset is not stored in Git because several files exceed
-GitHub's 100 MB limit. Download the folder from Google Drive (Google Drive
-will pack it into a ZIP archive) and extract its contents into
+The repository contains the Astrakhan GeoJSON, CSV and GraphML files used by
+``examples/astrakhan_pipeline.ipynb``. Two files exceed GitHub's 100 MB limit
+and are stored separately in Google Drive:
+
+- ``south-fed-district-latest.osm.pbf`` (302 MB);
+- ``accessibility_matrix.csv`` (111 MB).
+
+Download them from the shared folder and put them into
 ``examples/data/astrakhan/``:
 
 - `Astrakhan data (Google Drive) <https://drive.google.com/drive/folders/1ukx8F8fKFzGzvshn-ThntI1OBxZ56erm?usp=sharing>`__
 
-The folder contains all the data used by ``examples/astrakhan_pipeline.ipynb``,
-including the large ``south-fed-district-latest.osm.pbf`` (302 MB) and
-``accessibility_matrix.csv`` (111 MB). The ``examples/cache/`` directory is
-generated automatically and does not need to be downloaded.
+The Google Drive folder contains the complete dataset, so you can also download
+the whole folder if you prefer. The ``examples/cache/`` directory is generated
+automatically and does not need to be downloaded.
 
 Examples
 --------
