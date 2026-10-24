@@ -42,3 +42,10 @@ ENV/
 
 # PyCharm env
 .idea
+
+# VS Code / local editor settings
+.vscode/
+
+# Local cache and large GIS data (not stored in Git)
+examples/cache/
+examples/data/astrakhan/
